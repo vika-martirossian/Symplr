@@ -1,0 +1,16 @@
+{
+  "name": "symplr",
+  "version": "1.0.0",
+  "description": "E2E testing with Protractor",
+  "main": "conf.js",
+  "scripts": {
+    "webdriver-update": "webdriver-manager update",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "protractor conf.js"
+  },
+  "author": "Vika Martirossian",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.1.1"
+  }
+}
